@@ -1,0 +1,26 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    margin:24px;
+    padding:24px;
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+}
+img {
+    width: 100%;
+    text-align: center;
+}
+#p2 {
+    text-align: center;
+    background-color:deepskyblue;
+}
+#p2-d1 {
+    text-align: left;
+}
