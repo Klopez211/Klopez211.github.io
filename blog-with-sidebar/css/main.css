@@ -1,0 +1,21 @@
+#two-col {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-areas: "main sidebar";
+    gap:40px
+}
+.sidebar {
+    grid-area: sidebar ;
+    border: 10px ridge;
+    background-color: rgb(53, 162, 252);
+    color: white;
+    top: 25px;
+    height: min-content;
+    width: 100%;
+}
+.sidebar ul {
+    flex-flow: column wrap;
+    padding: 25px;
+    display: flex;
+    gap:10px;
+}
