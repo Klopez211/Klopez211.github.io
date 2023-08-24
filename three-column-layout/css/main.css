@@ -1,0 +1,27 @@
+* {
+    box-sizing:border-box
+}
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body {
+    margin:0;
+    font-family:sans-serif;
+    background-color:black;
+    color:#eeeeee;
+}
+#grid-layout {
+    display: grid;
+    padding-bottom: 8px;
+}
+
+#sidebar-1 h2, #sidebar-2 h3 {
+    border-bottom: 2px solid #aaaaaa;
+    padding-bottom: 8px;
+}
