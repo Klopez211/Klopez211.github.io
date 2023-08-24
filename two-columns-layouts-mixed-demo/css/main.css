@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color:cornflowerblue;
 
 }
 
@@ -32,6 +33,7 @@ body {
     background-color: peru;
     padding: 4px;
     border-radius: 12px;
+    border: red;
 }
 
 #sidebar {
@@ -73,14 +75,14 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;;
-    background-image: url(../images/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg);
+    background-image: url(../images/tres-leches-cake-with-fruit.jpg);
     background-size: cover;
     border-radius: 8px;
     background-repeat: no-repeat;
 }
 
 .metube-item:nth-of-type(2) .thumbnail-placeholder {
-    background-image: url(../images/design.jpg)
+    background-image: url(../images/meme-review.jpeg)
 }
 
 .metube-item:nth-of-type(3) .thumbnail-placeholder {
@@ -104,14 +106,59 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
-#pic {
+#pic1{
     border-radius: 100%;
-    width: 40px;
+    width: 60px;
     display: flex;
+
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
 }
 
 #pic2 {
     border-radius: 100%;
-    width: 40px;
+    width: 60px;
+    display: flex;
+    height: 60px;
+}
+
+#channel1 {
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+}
+
+#channel2 {
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+}
+
+#channel3 {
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+}
+
+.video-channe1 {
     display: flex;
 }
+
+.video-channel2 {
+    display: flex;
+    align-items: center;
+}
+
+.video-channe3 {
+    display: flex;
+    align-items: center;
+}
+.video-channel2
