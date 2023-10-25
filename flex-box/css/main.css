@@ -1,0 +1,44 @@
+img, p {
+    max-width: 500px;
+    border:2px solid blue;
+}
+
+.section1 {
+    border:2px solid red;
+    display:flex;
+    /*Row and row-reverse have a main-axis of horizontal / x-axis and a cross-axis of vertical / y-axis
+
+        Column and column-reverse have a main-axis of vertical / y-axis and a cross-axis of horizontal / x-axis*/
+    flex-direction: row;
+    /*
+
+        align-items works on the cross-axis. You can apply flex-start, flex-end, center, or baseline to align the flex items.
+
+    */
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+    justify-content:space-between;
+}
+    .section1 img{
+        width:100%;
+    }
+    .section1 .img-contain {
+        /*
+
+        The flex property can be used to specify the size that a Flexbox Item can grow to, relative to other Flexbox Items that also have the flex property set.
+
+ 
+
+        Actually, the flex property is a shorthand property, meaning it allows you to set and configure multiple flexbox-related properties at once; however, we're going to keep our examples here relatively simple.
+
+ 
+
+        Check out the Additional Resources section at the end if you want to dive deeper!*/
+        flex:1;
+        order:2;
+    }
+    .section1 p {
+        flex:3px;
+        order:1;
+    }
