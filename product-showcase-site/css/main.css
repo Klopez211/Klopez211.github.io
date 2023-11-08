@@ -37,10 +37,9 @@ text-align: center;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-self: space-between ;
+    justify-content: center;
     text-decoration: underline;
-    margin-left: 860px;
-    display: inline-block;
+    flex-direction: column;
 }
 
 #p1 {
