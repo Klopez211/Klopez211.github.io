@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image:url(../images/pet-footprints-horizontal-seamless-pattern-animal-print-gold-prints-of-tracks-of-a-cat-dog-on-a-black-background-pet-paw-print-silhouettes-cute-texture-vector.jpg);
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #e9c914, #96820e);
+    display:flex ;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #109cb8, #0e5b96);
+}
+
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25,
+        visibility 0.25;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width:100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+.dropdown-container:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.spacer {
+    height: 100vh;
+}
+
+#hero {
+    background-image: url("../images/sea_foam_green_vertical_stripes_background_seamless.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
