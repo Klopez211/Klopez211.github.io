@@ -5,12 +5,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/Untitled-2.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
 }
+
+#hero {
+    background-image: url(../images/Untitled-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:flex-end;
+}
+
 
 #navbar {
     background: rgb(36, 33, 33);
@@ -64,4 +70,40 @@ dropdown-container {
     visibility: visible;
     opacity: 1;
 
+}
+.app {
+    background-color: antiquewhite;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.basic-grid-gallery img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#footer {
+    background: linear-gradient(to bottom, teal, #01482e);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
