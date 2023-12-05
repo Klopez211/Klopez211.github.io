@@ -52,12 +52,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.card {
-    flex: 1;
-    margin: 26px;
-}
-
 .card1 img {
     width: 900px;
 }
@@ -79,5 +73,5 @@ body {
     transition: 0.7s;
 }
 .cta-button:active {
-    color: goldenrod;
+    color: rgb(63, 62, 59);
 }
