@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&family=Rye&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgb(95, 130, 206)
+}
+#navbar {
+    background: linear-gradient(to left,#86f26b, #b0e7e4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: #091140;
+    padding: 14px;
+    font-size: 20px;
+}
+#navbar a:hover {
+    color: #ff0015;
+    text-shadow: 1px 1px #000000;
+}
+#navbar #logo {
+    margin-right: auto;
+}
