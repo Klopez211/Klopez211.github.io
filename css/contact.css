@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Pacifico&family=Roboto:ital,wght@1,300&family=Rye&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +6,24 @@
 }
 body {
     margin: 0px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Ephesis', cursive;
     font-style: normal;
     font-weight: 400;
-    background-color: rgb(95, 130, 206)
+    background-color: #141414;
+    color:white
+
+}
+#contact{
+    font-size: 100px;
 }
 #navbar {
-    background: linear-gradient(to left,#86f26b, #b0e7e4);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #navbar a {
     text-decoration: none;
-    color: #091140;
+    color: #0a2df3;
     padding: 14px;
     font-size: 20px;
 }
@@ -39,7 +43,7 @@ body {
     justify-content: center;
     text-align: center;
     height: 100vh;
-    background-image: url(../images/;
+    background-image: url(../images/AdobeStock_299859005.jpeg);
     background-size: cover
 }
 @media screen and (max-width: 1024px) and (min-width: 480px) {
